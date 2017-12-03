@@ -29,6 +29,9 @@ class NeuralNetwork(object):
         #def sigmoid(x):
         #    return 0  # Replace 0 with your sigmoid calculation here
         #self.activation_function = sigmoid
+        
+    def adapt_learning_rate(self, learning_rate):
+        learning_rate
                     
 
     def train(self, features, targets):
@@ -146,7 +149,7 @@ class NeuralNetwork(object):
 #########################################################
 # Set your hyperparameters here
 ##########################################################
-iterations = 15000
-learning_rate = 0.11
+iterations = 5000
+learning_rate = 0.35
 hidden_nodes = 15
 output_nodes = 1
